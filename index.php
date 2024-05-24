@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Quizzer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
-    <header>
+    <header class="bg-primary text-white text-center p-4">
         <div class="container">
             <h1>PHP Quizzer</h1>
         </div>
     </header>
-    <main>
+    <main class="py-5">
         <div class="container">
-        <h2>Test your PHP Knowledge</h2>
-        <p>This is a multiple choice quizz to test your knowledge of PHP</p>
-        <ul>
-            <li><strong>Number of Questions: </strong>5</li>
-            <li><strong>Type: </strong>Multiple Choice</li>
-            <li><strong>Estimated Time: </strong>4 Minutes</li>
+        <h2 class="mb-4">Test your PHP Knowledge</h2>
+        <p class="lead">This is a multiple choice quiz to test your knowledge of PHP</p>
+        <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item"><strong>Number of Questions: </strong>5</li>
+            <li class="list-group-item"><strong>Type: </strong>Multiple Choice</li>
+            <li class="list-group-item"><strong>Estimated Time: </strong>4 Minutes</li>
         </ul>
-        <a href="question.php?n=1" class="start">Start Quiz</a>
+        <a href="question.php?n=1" class="btn btn-primary btn-lg">Start Quiz</a>
         </div>
     </main>   
-    <footer>
+    <footer class="bg-dark text-white text-center p-4">
         <div class="container">
             Copyright &copy; 2024 PHP Quizzer
         </div> 
+    </footer>
 </body>
 </html>
